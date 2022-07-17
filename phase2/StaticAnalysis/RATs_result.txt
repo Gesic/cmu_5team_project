@@ -1,0 +1,108 @@
+gesic@DESKTOP-6915S79:/mnt/c/SWSecurity/CMU/Project/team4/OpenAPRL_Team4$ rats --columns server/
+Entries in perl database: 33
+Entries in ruby database: 46
+Entries in python database: 62
+Entries in c database: 334
+Entries in php database: 55
+Analyzing server//server.cpp
+server//server.cpp:83[14]: High: fixed size local buffer
+server//server.cpp:168[5]: High: fixed size local buffer
+server//server.cpp:261[5]: High: fixed size local buffer
+server//server.cpp:262[5]: High: fixed size local buffer
+server//server.cpp:263[5]: High: fixed size local buffer
+server//server.cpp:613[5]: High: fixed size local buffer
+Extra care should be taken to ensure that character arrays that are allocated
+on the stack are used safely.  They are prime targets for buffer overflow
+attacks.
+
+Total lines analyzed: 951
+Total time 0.027582 seconds
+34479 lines per second
+gesic@DESKTOP-6915S79:/mnt/c/SWSecurity/CMU/Project/team4/OpenAPRL_Team4$ rats --columns lgofficer
+Entries in perl database: 33
+Entries in ruby database: 46
+Entries in python database: 62
+Entries in c database: 334
+Entries in php database: 55
+Analyzing lgofficer/ClientMachine.cpp
+Analyzing lgofficer/lgdemo_run.cpp
+Analyzing lgofficer/lgofficer.cpp
+lgofficer/lgofficer.cpp:1: warning: bad token `'
+lgofficer/lgofficer.cpp:1: warning: bad token `'
+lgofficer/lgofficer.cpp:1: warning: bad token `'
+Analyzing lgofficer/lgofficerDlg.cpp
+lgofficer/lgofficerDlg.cpp:1: warning: bad token `'
+lgofficer/lgofficerDlg.cpp:1: warning: bad token `'
+lgofficer/lgofficerDlg.cpp:1: warning: bad token `'
+Analyzing lgofficer/Logger.cpp
+Analyzing lgofficer/pch.cpp
+lgofficer/pch.cpp:1: warning: bad token `'
+lgofficer/pch.cpp:1: warning: bad token `'
+lgofficer/pch.cpp:1: warning: bad token `'
+lgofficer/ClientMachine.cpp:75[13]: High: fixed size local buffer
+lgofficer/ClientMachine.cpp:816[5]: High: fixed size local buffer
+lgofficer/ClientMachine.cpp:993[9]: High: fixed size local buffer
+lgofficer/ClientMachine.cpp:1031[13]: High: fixed size local buffer
+lgofficer/lgdemo_run.cpp:238[5]: High: fixed size local buffer
+lgofficer/lgdemo_run.cpp:240[5]: High: fixed size local buffer
+lgofficer/lgdemo_run.cpp:448[13]: High: fixed size local buffer
+lgofficer/lgofficerDlg.cpp:295[9]: High: fixed size local buffer
+lgofficer/lgofficerDlg.cpp:296[9]: High: fixed size local buffer
+lgofficer/lgofficerDlg.cpp:297[9]: High: fixed size local buffer
+lgofficer/Logger.cpp:24[5]: High: fixed size local buffer
+Extra care should be taken to ensure that character arrays that are allocated
+on the stack are used safely.  They are prime targets for buffer overflow
+attacks.
+
+Total lines analyzed: 2815
+Total time 0.060593 seconds
+46457 lines per second
+gesic@DESKTOP-6915S79:/mnt/c/SWSecurity/CMU/Project/team4/OpenAPRL_Team4$ rats --columns common
+Entries in perl database: 33
+Entries in ruby database: 46
+Entries in python database: 62
+Entries in c database: 334
+Entries in php database: 55
+Analyzing common/Account.cpp
+Analyzing common/jsoncpp.cpp
+Analyzing common/NetworkTCP.cpp
+Analyzing common/NetworkTLS.cpp
+Analyzing common/openssl/include/openssl/applink.c
+Analyzing common/openssl_hostname_validation.cpp
+Analyzing common/sechelper.cpp
+common/Account.cpp:23[5]: High: fixed size local buffer
+common/Account.cpp:24[5]: High: fixed size local buffer
+common/Account.cpp:25[5]: High: fixed size local buffer
+common/Account.cpp:79[5]: High: fixed size local buffer
+common/Account.cpp:80[5]: High: fixed size local buffer
+common/Account.cpp:81[5]: High: fixed size local buffer
+common/jsoncpp.cpp:160[28]: High: fixed size local buffer
+common/jsoncpp.cpp:1031[3]: High: fixed size local buffer
+common/jsoncpp.cpp:2083[3]: High: fixed size local buffer
+common/jsoncpp.cpp:4207[18]: High: fixed size local buffer
+common/NetworkTLS.cpp:258[9]: High: fixed size local buffer
+common/NetworkTLS.cpp:362[17]: High: fixed size local buffer
+common/NetworkTLS.cpp:596[17]: High: fixed size local buffer
+common/sechelper.cpp:39[9]: High: fixed size local buffer
+Extra care should be taken to ensure that character arrays that are allocated
+on the stack are used safely.  They are prime targets for buffer overflow
+attacks.
+
+common/sechelper.cpp:40[12]: Medium: read
+Check buffer boundaries if calling this function in a loop
+and make sure you are not in danger of writing past the allocated space.
+
+common/sechelper.cpp:62[5]: Medium: EVP_EncryptUpdate
+make sure the output buffer is either at least one block less one byte bigger
+than the input, or that you are sure inputs are always multiples of the block
+size, and the output buffer is as big as the input.
+
+common/sechelper.cpp:95[5]: Medium: EVP_DecryptUpdate
+make sure the output buffer is either at least one block less one byte bigger
+than the input, or that you are sure inputs are always multiples of the block
+size, and the output buffer is as big as the input.
+
+Total lines analyzed: 7493
+Total time 0.157774 seconds
+47491 lines per second
+gesic@DESKTOP-6915S79:/mnt/c/SWSecurity/CMU/Project/team4/OpenAPRL_Team4$

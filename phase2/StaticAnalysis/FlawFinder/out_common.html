@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf8">
+<title>Flawfinder Results</title>
+<meta name="author" content="David A. Wheeler">
+<meta name="keywords" lang="en" content="flawfinder results, security scan">
+</head>
+<body>
+<h1>Flawfinder Results</h1>
+Here are the security scan results from
+<a href="https://dwheeler.com/flawfinder">Flawfinder version 2.0.19</a>,
+(C) 2001-2019 <a href="https://dwheeler.com">David A. Wheeler</a>.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 222
+<p>
+Examining common/Account.cpp <br>
+Examining common/Account.h <br>
+Examining common/jsoncpp.cpp <br>
+Examining common/NetworkTCP.cpp <br>
+Examining common/NetworkTCP.h <br>
+Examining common/NetworkTLS.cpp <br>
+Examining common/NetworkTLS.h <br>
+Examining common/openssl_hostname_validation.cpp <br>
+Examining common/openssl_hostname_validation.h <br>
+Examining common/sechelper.cpp <br>
+Examining common/sechelper.h <br>
+
+<h2>Final Results</h2>
+<ul>
+<li>common/jsoncpp.cpp:266: <b>  [4] </b> (buffer) <i> sscanf:
+  The scanf() family's %s operation, without a limit specification, permits
+  buffer overflows (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>, <a
+  href="https://cwe.mitre.org/data/definitions/20.html">CWE-20</a>). Specify
+  a limit to %s, or use a different input function. </i>
+<li>common/jsoncpp.cpp:267: <b>  [4] </b> (buffer) <i> sscanf:
+  The scanf() family's %s operation, without a limit specification, permits
+  buffer overflows (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>, <a
+  href="https://cwe.mitre.org/data/definitions/20.html">CWE-20</a>). Specify
+  a limit to %s, or use a different input function. </i>
+<li>common/jsoncpp.cpp:267: <b>  [4] </b> (buffer) <i> sscanf:
+  The scanf() family's %s operation, without a limit specification, permits
+  buffer overflows (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>, <a
+  href="https://cwe.mitre.org/data/definitions/20.html">CWE-20</a>). Specify
+  a limit to %s, or use a different input function. </i>
+<li>common/Account.cpp:23: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/Account.cpp:24: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/Account.cpp:25: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/Account.cpp:79: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/Account.cpp:80: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/Account.cpp:81: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/NetworkTLS.cpp:184: <b>  [2] </b> (buffer) <i> memcpy:
+  Does not check for buffer overflows when copying to destination (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>). Make
+  sure destination can always hold the source data. </i>
+<li>common/NetworkTLS.cpp:258: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/NetworkTLS.cpp:362: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/NetworkTLS.cpp:462: <b>  [2] </b> (buffer) <i> memcpy:
+  Does not check for buffer overflows when copying to destination (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>). Make
+  sure destination can always hold the source data. </i>
+<li>common/NetworkTLS.cpp:596: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/jsoncpp.cpp:1031: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/jsoncpp.cpp:2083: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/jsoncpp.cpp:2552: <b>  [2] </b> (buffer) <i> memcpy:
+  Does not check for buffer overflows when copying to destination (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>). Make
+  sure destination can always hold the source data. </i>
+<li>common/jsoncpp.cpp:2574: <b>  [2] </b> (buffer) <i> memcpy:
+  Does not check for buffer overflows when copying to destination (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>). Make
+  sure destination can always hold the source data. </i>
+<li>common/sechelper.cpp:39: <b>  [2] </b> (buffer) <i> char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (<a
+  href="https://cwe.mitre.org/data/definitions/119.html">CWE-119</a>!/<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>).
+  Perform bounds checking, use functions that limit length, or ensure that
+  the size is larger than the maximum possible length. </i>
+<li>common/sechelper.cpp:172: <b>  [2] </b> (buffer) <i> memcpy:
+  Does not check for buffer overflows when copying to destination (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>). Make
+  sure destination can always hold the source data. </i>
+<li>common/sechelper.cpp:175: <b>  [2] </b> (buffer) <i> memcpy:
+  Does not check for buffer overflows when copying to destination (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>). Make
+  sure destination can always hold the source data. </i>
+<li>common/sechelper.cpp:236: <b>  [2] </b> (buffer) <i> memcpy:
+  Does not check for buffer overflows when copying to destination (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>). Make
+  sure destination can always hold the source data. </i>
+<li>common/sechelper.cpp:249: <b>  [2] </b> (buffer) <i> memcpy:
+  Does not check for buffer overflows when copying to destination (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>). Make
+  sure destination can always hold the source data. </i>
+<li>common/jsoncpp.cpp:2582: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:2603: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:2832: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:3470: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:3528: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:3541: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:3587: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:3608: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:3619: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:3653: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/jsoncpp.cpp:4427: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/openssl_hostname_validation.cpp:61: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/openssl_hostname_validation.cpp:105: <b>  [1] </b> (buffer) <i> strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (<a
+  href="https://cwe.mitre.org/data/definitions/126.html">CWE-126</a>). </i>
+<li>common/sechelper.cpp:40: <b>  [1] </b> (buffer) <i> read:
+  Check buffer boundaries if used in a loop including recursive loops (<a
+  href="https://cwe.mitre.org/data/definitions/120.html">CWE-120</a>, <a
+  href="https://cwe.mitre.org/data/definitions/20.html">CWE-20</a>). </i>
+</ul>
+<h2>Analysis Summary</h2>
+<p>
+Hits = 37
+<br>
+Lines analyzed = 7656 in approximately 0.15 seconds (52192 lines/second)
+<br>
+Physical Source Lines of Code (SLOC) = 6020
+<br>
+Hits@level = [0]  93 [1]  14 [2]  20 [3]   0 [4]   3 [5]   0 <br>
+Hits@level+ = [0+] 130 [1+]  37 [2+]  23 [3+]   3 [4+]   3 [5+]   0 <br>
+Hits/KSLOC@level+ = [0+] 21.5947 [1+] 6.14618 [2+] 3.8206 [3+] 0.498339 [4+] 0.498339 [5+]   0 <br>
+Minimum risk level = 1
+<br>
+Not every hit is necessarily a security vulnerability.
+You can inhibit a report by adding a comment in this form:
+// flawfinder: ignore
+Make *sure* it's a false positive!
+You can use the option --neverignore to show these.
+<br>
+There may be other security vulnerabilities; review your code!
+<br>
+See '<a href="https://dwheeler.com/secure-programs">Secure Programming HOWTO</a>'
+(<a href="https://dwheeler.com/secure-programs">https://dwheeler.com/secure-programs</a>) for more information.
+</body>
+</html>

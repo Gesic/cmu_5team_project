@@ -1,0 +1,152 @@
+﻿CID,Type,Impact,First Detected,Owner,Classification,Severity,Action,Component,Category,Checker,Issue Kind,MISRA Rigor
+39409,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39398,Large stack use,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Performance inefficiencies,STACK_USE,Quality,None
+39383,Large stack use,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Performance inefficiencies,STACK_USE,Quality,None
+39373,Incorrect deallocator used,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,API usage errors,ALLOC_FREE_MISMATCH,Quality,None
+39367,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39365,Out-of-bounds read,High,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Memory - illegal accesses,OVERRUN,Various,None
+39339,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39338,Dead default in switch,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Possible Control flow issues,DEADCODE,Quality,None
+39333,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39317,Recursion in included headers,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Build system issues,PW.INCLUDE_RECURSION,Quality,None
+39295,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39279,Recursion in included headers,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Build system issues,PW.INCLUDE_RECURSION,Quality,None
+39257,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39244,Data race condition,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Concurrent data access violations,MISSING_LOCK,Quality,None
+39225,Same on both sides,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Incorrect expression,CONSTANT_EXPRESSION_RESULT,Quality,None
+39205,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39199,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39197,Recursion in included headers,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Build system issues,PW.INCLUDE_RECURSION,Quality,None
+39193,Uncaught exception,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Error handling issues,UNCAUGHT_EXCEPT,Quality,None
+39192,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39190,Uninitialized scalar field,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+39183,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39164,Parse warning,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Parse warnings,PW.LINKAGE_CONFLICT,Quality,None
+39135,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39130,Large stack use,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Performance inefficiencies,STACK_USE,Quality,None
+39126,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39125,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39119,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39118,Large stack use,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Performance inefficiencies,STACK_USE,Quality,None
+39117,Uninitialized scalar field,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+39111,Big parameter passed by value,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Performance inefficiencies,PASS_BY_VALUE,Quality,None
+39092,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39088,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39079,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39078,Uninitialized scalar field,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+39075,Uncaught exception,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Error handling issues,UNCAUGHT_EXCEPT,Quality,None
+39070,Uninitialized scalar variable,High,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Uninitialized variables,UNINIT,Various,None
+39058,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+39048,Uninitialized pointer field,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+39035,Unsigned compared against 0,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Control flow issues,NO_EFFECT,Quality,None
+39027,Out-of-bounds read,High,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Memory - illegal accesses,OVERRUN,Various,None
+39026,Uncaught exception,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Error handling issues,UNCAUGHT_EXCEPT,Quality,None
+39004,Resource leak,High,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Resource leaks,RESOURCE_LEAK,Quality,None
+38999,Large stack use,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Performance inefficiencies,STACK_USE,Quality,None
+38997,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38992,Resource leak in object,High,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Resource leaks,CTOR_DTOR_LEAK,Quality,None
+38960,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38948,Recursion in included headers,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Build system issues,PW.INCLUDE_RECURSION,Quality,None
+38947,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38935,Data race condition,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Concurrent data access violations,MISSING_LOCK,Quality,None
+38925,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38892,Missing move assignment operator,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Low impact quality,MISSING_MOVE_ASSIGNMENT,Quality,None
+38886,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38884,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38876,Recursion in included headers,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Build system issues,PW.INCLUDE_RECURSION,Quality,None
+38869,Uncaught exception,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Error handling issues,UNCAUGHT_EXCEPT,Quality,None
+38858,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38849,Incorrect deallocator used,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,API usage errors,ALLOC_FREE_MISMATCH,Quality,None
+38840,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38836,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38825,Large stack use,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Performance inefficiencies,STACK_USE,Quality,None
+38802,Uncaught exception,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Error handling issues,UNCAUGHT_EXCEPT,Quality,None
+38794,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38788,Recursion in included headers,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Build system issues,PW.INCLUDE_RECURSION,Quality,None
+38786,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38773,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38771,Data race condition,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Concurrent data access violations,MISSING_LOCK,Quality,None
+38767,Operands don't affect result,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Integer handling issues,CONSTANT_EXPRESSION_RESULT,Quality,None
+38734,Uninitialized scalar variable,High,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Uninitialized variables,UNINIT,Various,None
+38724,Same on both sides,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Incorrect expression,CONSTANT_EXPRESSION_RESULT,Quality,None
+38716,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38704,Arguments in wrong order,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,API usage errors,SWAPPED_ARGUMENTS,Quality,None
+38701,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38691,Invalid type in argument to printf format specifier,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,API usage errors,PRINTF_ARGS,Quality,None
+38677,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38661,Division or modulo by zero,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Integer handling issues,DIVIDE_BY_ZERO,Quality,None
+38645,Logically dead code,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Control flow issues,DEADCODE,Quality,None
+38631,Resource leak,High,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Resource leaks,RESOURCE_LEAK,Quality,None
+38626,Uninitialized scalar field,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+38588,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38578,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38577,Uninitialized scalar variable,High,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Uninitialized variables,UNINIT,Various,None
+38574,Uninitialized scalar variable,High,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Uninitialized variables,UNINIT,Various,None
+38568,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38555,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38552,Recursion in included headers,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Build system issues,PW.INCLUDE_RECURSION,Quality,None
+38546,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38497,Incorrect deallocator used,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,API usage errors,ALLOC_FREE_MISMATCH,Quality,None
+38487,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38479,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38474,Resource leak,High,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Resource leaks,RESOURCE_LEAK,Quality,None
+38453,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38451,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38434,Out-of-bounds access,High,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Memory - corruptions,OVERRUN,Various,None
+38421,Operands don't affect result,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Integer handling issues,CONSTANT_EXPRESSION_RESULT,Quality,None
+38413,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38412,Invalid type in argument to printf format specifier,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,API usage errors,PRINTF_ARGS,Quality,None
+38397,Argument cannot be negative,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Error handling issues,NEGATIVE_RETURNS,Quality,None
+38396,Uninitialized scalar variable,High,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Uninitialized variables,UNINIT,Various,None
+38389,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38388,Recursion in included headers,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Build system issues,PW.INCLUDE_RECURSION,Quality,None
+38377,Various,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+38373,Unsigned compared against 0,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Control flow issues,NO_EFFECT,Quality,None
+38361,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38349,Unsigned compared against 0,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Control flow issues,NO_EFFECT,Quality,None
+38330,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38302,Uninitialized pointer field,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+38296,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38290,Uninitialized scalar field,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+38264,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38240,Parse recovery warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,RW.UNQUAL_NAMED_FUNCTION_WITH_QUAL_OBJECT,Quality,None
+38237,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38223,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38205,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38189,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38159,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38153,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38138,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38131,Uninitialized scalar field,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+38123,Out-of-bounds access,High,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Memory - corruptions,ARRAY_VS_SINGLETON,Quality,None
+38114,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38110,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38065,Uncaught exception,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Error handling issues,UNCAUGHT_EXCEPT,Quality,None
+38033,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.SWITCH_SELECTOR_EXPR_IS_CONSTANT,Quality,None
+38004,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+38000,Data race condition,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Concurrent data access violations,MISSING_LOCK,Quality,None
+37998,Data race condition,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Concurrent data access violations,MISSING_LOCK,Quality,None
+37996,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37993,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37967,Structurally dead code,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Control flow issues,UNREACHABLE,Quality,None
+37963,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37960,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37944,Data race condition,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Concurrent data access violations,MISSING_LOCK,Quality,None
+37941,Large stack use,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Performance inefficiencies,STACK_USE,Quality,None
+37935,Missing move assignment operator,Low,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Low impact quality,MISSING_MOVE_ASSIGNMENT,Quality,None
+37934,Uninitialized scalar field,Medium,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+37924,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37917,Resource leak in object,High,07/08/22,Unassigned,Intentional,Unspecified,Ignore,Other,Resource leaks,CTOR_DTOR_LEAK,Quality,None
+37907,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37904,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37899,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37895,Uncaught exception,Medium,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Error handling issues,UNCAUGHT_EXCEPT,Quality,None
+37884,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+37867,Parse warning,Low,07/08/22,Unassigned,Unclassified,Unspecified,Undecided,Other,Parse warnings,PW.DEPRECATED_STRING_CONV,Quality,None
+29180,Unused value,Low,04/09/15,Unassigned,False Positive,Unspecified,Ignore,Other,Code maintainability issues,UNUSED_VALUE,Quality,None
+29121,Uninitialized scalar field,Medium,11/27/14,Unassigned,False Positive,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+29120,Uninitialized scalar field,Medium,11/27/14,Unassigned,False Positive,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+29096,Out-of-bounds access,High,11/27/14,Unassigned,False Positive,Unspecified,Ignore,Other,Memory - corruptions,ARRAY_VS_SINGLETON,Quality,None
+10095,Uninitialized pointer field,Medium,07/23/13,joohee.bang,False Positive,Unspecified,Ignore,Other,Uninitialized members,UNINIT_CTOR,Quality,None
+10068,Logically dead code,Medium,07/07/13,daewoong.lim,False Positive,Unspecified,Ignore,Other,Control flow issues,DEADCODE,Quality,None
+10067,Unchecked return value,Medium,07/07/13,daewoong.lim,False Positive,Unspecified,Ignore,Other,Error handling issues,CHECKED_RETURN,Quality,None
